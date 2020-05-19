@@ -74,7 +74,7 @@ function LavanguardiaPage() {
                         <img className="main-img"src={secrowseccolsec}/>
                     </Col>
                     <Col md="4" >
-                      <iframe src={process.env.NODE_ENV === 'production' ? "https://zen-shaw-4b92a9.netlify.com/carousel" : "//localhost:3000/carousel" }
+                      <iframe src={process.env.NODE_ENV === 'production' ? "https://elastic-leavitt-827964.netlify.app/carousel" : "//localhost:3000/carousel" }
                           title="carousel"
                           width="330px"
                           height="260px"
@@ -83,7 +83,7 @@ function LavanguardiaPage() {
                           display="initial"
                           position="relative"
                           />
-                      <iframe src={process.env.NODE_ENV === 'production' ? "https://zen-shaw-4b92a9.netlify.com/"+ displayRandomItem() : "//localhost:3000/"+ displayRandomItem()}
+                      <iframe src={process.env.NODE_ENV === 'production' ? "https://elastic-leavitt-827964.netlify.app/"+ displayRandomItem() : "//localhost:3000/"+ displayRandomItem()}
                           title="carousel"
                           width="330px"
                           height="260px"
